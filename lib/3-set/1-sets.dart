@@ -4,7 +4,7 @@ void main() {
   numerosList.add(1);
   numerosList.add("value");
 
-  var numerosSet = <int>{};
+  var numerosSet = <int>{}; //o que diferencia isto de um map, é a o generic <T>
   numerosSet.add(12);
   numerosSet.add(12); //o Set nao permite valores duplicados
 
