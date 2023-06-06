@@ -21,4 +21,7 @@ void main() {
 
   //lookup vai procurar algo igual a
   print(numerosDoListAOSet.lookup(2));
+  int a = 10;
+  if (a == 1) {
+  } else {}
 }

@@ -1,2 +1,4 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+- Lint: uma ferramenta que tras boas práticas
+- alterar o Lint
+  - analysis_options.yml
+  - https://pub.dev/documentation/lints/latest/
