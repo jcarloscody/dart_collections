@@ -33,11 +33,8 @@ void main() {
 
 //ordenando por idade
   listaPaciente.sort((paciente1, paciente2) {
-    final pacienteDado1 = paciente1.split('|');
-    final pacienteDado2 = paciente2.split('|');
-
-    final idade1 = int.parse(pacienteDado1[1]);
-    final idade2 = int.parse(pacienteDado2[1]);
+    final idade1 = int.parse(paciente1.split('|')[1]);
+    final idade2 = int.parse(paciente2.split('|')[1]);
 
     if (idade1 > idade2) {
       return 1;
